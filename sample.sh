@@ -12,3 +12,6 @@ cp nginx.conf /etc/nginx/nginx.conf
 echo unziping the file
 cd /usr/share/nginx/html
 unzip /tmp/frontend.zip
+
+systemctl enable nginx
+systemctl restart nginx
